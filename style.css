@@ -1,0 +1,154 @@
+.bgimg {
+    background-image: url('body.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
+}
+.headerset{
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+.headerset h2 {
+    font-size: 42px;
+}
+.headerset h1{
+    font-size: 82px;
+    font-weight: bold;
+
+}
+
+/*-----------------OUR SERVICES------------------*/
+
+.ourservices{
+    padding: 80px 0px 60px;
+    height: 650px;
+}
+
+.ourservices h1{
+   font-size: 50px;
+   font-weight: bold;
+}
+
+
+.rowsetting{
+    margin: 80px 0px ;
+}
+
+.imgsetting{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.fa-shopping-cart{
+    margin-top: 25px;
+    
+}
+.fa-desktop{
+    margin-top: 26px;
+}
+.fa-lock{
+    margin-top: 25px;
+}
+.rowsetting h2{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.rowsetting p{
+    padding: 10px;
+    color: 6c757d;
+}
+/*/////////////////////portfolio///*/
+
+.portfolio{
+
+    height: 1100px;
+    width: 100%;
+    padding: 100px 0px 50px;
+
+}
+
+.portfolio h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card{
+    margin: top 40px; ;
+}
+
+
+
+/*----------OUR TEAM------------*/
+
+.ourteam{
+    height: 700px;
+    padding: 100px 0px 60px;
+    width: 100%;
+}
+
+.ourteam h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.teamsetting{
+    margin-top: 70px;
+
+}
+
+/*----------Footer------------*/
+
+
+.footer{
+    height: 50px;
+}
+
+.footer h6{
+    line-height: 50px ;
+}
+
+/*----------mediaquery------------*/
+
+
+@media(min-width: 992px){
+
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    .headerset h2 {
+        font-size: 42px;
+    }
+    .headerset h1{
+        font-size: 62px;
+        font-weight: bold;
+    
+    }
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+
+}
+@media(min-width: 480px) and (max-width: 574px){
+
+}
+
+@media(min-width: 479px){
+
+    .ourservices{
+       
+        height: 1200px;
+    }
+  
+    .portfolio{
+        height: 2000px;
+    }
+
+    .ourteam{
+        height: 1500px;
+    }
+}
